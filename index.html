@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BlockCertify | Create and Verify NFT Certificates</title>
+    <!--<link href="styles.css" rel="stylesheet" type="text/css">-->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
+    <!-- icon -->
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <link rel="shortcut icon" type="image/png" href="./images/logo.png">
+    <script src="./js/loading.js"></script>
+    <link rel="stylesheet" href="./css/loading.css">
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Lato:ital@1&display=swap" rel="stylesheet">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body onload="typeWriter(); hideLoading()">
+    <div id="loading"></div>
+    <header class="header">
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                BlockCertify</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <div class="container">
+        <div class="row" id="home">
+            <div class="col-sm-6 banner-info">
+                <h2 class="firamono" id="TypingEffectText">Certify and Verify documents with the Blockchain
+                </h2>
+
+                <p class="big-text">BlockCertify</p>
+                <p class="firamono">Educational Certificates, Legal Docs or Bonds, create NFTs for existing physical
+                    documents, and
+                    verify
+                    their
+                    credibility from anywhere around the globe.</p>
+                <a class="btn btn-first" href="./verify.html">VERIFY</a>
+                <a class="btn btn-second" href="./create.html">CREATE</a>
+            </div>
+
+            <div class="col-sm-6 banner-image">
+                <img src="./images/pic1.png" class="img-responsive">
+            </div>
+
+            <h4 class="text-center"><a class="btn btn-second" href="https://vishaldhatrika.me/patents/blockcertify.pdf">Patent Documentation</a></h4>
+            
+        </div>
+        <div class="row" id="about">
+            <h3 class="text-center mb-3">ABOUT US</h3>
+            <p class="text-center firamono mb-5">We are a group of passionate and goal-driven software developers, making use of the Blockchain Technology to power our application,
+                where we
+                record transaction data and generate NFT Certificates by the inputs given by user.</p>
+            <br><br>
+
+
+            <h2><a href="https://vishaldhatrika.me/patents/blockcertify.pdf">Patent Documentation Link</a></h2>
+                
+            
+            <h4 class="text-center">Our Team</h4><br>
+            <h6 class="col-md-1 text-center"> </h6>
+            <h6 class="col-md-2 text-center">
+                <ul>
+                    <li>
+                        <img class="profile-img" src="./profileimgs/sir.jpeg">
+                    </li>
+                    <a href="https://scholar.google.co.in/citations?user=d1GhC-4AAAAJ&hl=en"> <li>Dr. P Chinnasamy</li></a>
+                    <li>Associate Professor</li>
+
+                </ul>
+
+            </h6>
+            <h6 class="col-md-2 text-center">
+                <ul>
+                    <li>
+                        <img class="profile-img" src="./profileimgs/5c0.jpg">
+                    </li>
+                    <a href="https://linkedin.com/in/vishaldhatrika/"> <li>Vishal Dhatrika</li></a>
+                    <li>Software Engineer</li>
+
+                </ul>
+            </h6>
+            <h6 class="col-md-2 text-center">
+                <ul>
+                    <li>
+                        <img class="profile-img" src="./profileimgs/571.jpeg">
+                    </li>
+                    <a href="https://in.linkedin.com/in/hemanth-kumar-dachiraju-bb6a75184"><li>Hemanth Kumar Dachiraju</li></a>
+                    <li>Software Engineer</li>
+
+                </ul>
+            </h6>
+            <h6 class="col-md-2 text-center">
+                <ul>
+                    <li>
+                        <img class="profile-img" src="./profileimgs/581.jpeg">
+                    </li>
+                    <li>K Harish Chandra Prasad</li>
+                    <li>Software Engineer</li>
+
+                </ul>
+            </h6>
+            <h6 class="col-md-2 text-center">
+                <ul>
+                    <li>
+                        <img class="profile-img" src="./profileimgs/5b0.jpeg">
+                    </li>
+                    <a href="https://in.linkedin.com/in/praveen-sanagala-06a15a210"><li>Sanagala Praveen</li></a>
+                    <li>Software Engineer</li>
+
+                </ul>
+            </h6>
+            <h6 class="col-md-1 text-center"> </h6>
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col">
+                BlockCertify Project <img src="./images/logo.png" alt="" width="25px">
+            </div>
+            <div class="col" id="contact">
+                <div class="text-primary">Contact Us</div>
+
+                <ul>
+                    <li>blockcertifyproject@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center text-muted">
+                Content owned, copyrighted to and developed by the developers.</div>
+        </div>
+        <div class="row">
+        <div class="col text-center text-danger">
+               This project is not under maintenance now. After the Ethereum Merge (shift to PoS) the transactions are not submitted.
+            </div>
+        </div>
+    </footer>
+    <!-- typing effect js -->
+    <script src="./js/typingeffect.js"></script>
+
+    <!-- bootstrap jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
